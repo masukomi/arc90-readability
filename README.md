@@ -34,3 +34,5 @@ languages. Here's a listing of the main ones I could find.
 	* [ruby-readability](https://github.com/cantino/ruby-readability)
 	* [readability Rails engine](https://github.com/plukevdh/readability)
 	* [readability running on Ruby in Harmony](https://github.com/sspinc/readability)
+* **Rust**
+	* [readability-rs](https://github.com/kumabook/readability)
