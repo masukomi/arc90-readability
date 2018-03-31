@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Readability &ndash; Un experimento de Arc90 Laboratory</title>
+  <meta name="author" content="Arc90">
+  <meta name="description" content="Readability&trade; es una herramienta simple que have de leer en la web una tarea m&aacute;s placentera al remover el desorden que hay alrededor de lo que est&aacute;s leyendo.">
+  <link rel="stylesheet" href="../css/readability-home.css" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="../css/fancybox.css" type="text/css" media="screen" charset="utf-8">
+  <link rel="icon" type="image/png" href="../images/icon-readability-favicon.png">
+  <!--[if lte IE 7]>
+    <style type="text/css" media="screen">
+      #introduction, #watch-video, #header .meta { margin-top: 0; }
+      .settings-box { margin-left: 5px; width: 160px; }
+    </style>
+  <![endif]-->
+  <script src="../js/jquery-1.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../js/es/readability-start.js" type="text/javascript" charset="utf-8"></script>
+  <script src="../js/jquery.fancybox-1.2.6.pack.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" src="http://use.typekit.com/thw1vhb.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+
+<div id="container">
+  <div id="header">
+    <h1>Readability&trade;<span class="secondary-title"> &mdash; Un experimento de Arc90 Laboratory</span></h1>
+
+    <div id="introduction">
+      <p><em>Readability</em>&trade; es una herramienta sencilla que hace de leer en la web una tarea m&aacute;s placentera, eliminando el desorden alrededor de lo que est&aacute;s leyendo. Sigue los pasos descritos abajo para instalar <em>Readability</em>&trade; en tu navegador.</p>
+    </div>  <!-- End #introduction -->
+
+    <div id="watch-video">
+      <a href="#video-other" class="video" title="Video de Presentaci&oacute;n" id="video-instruction"><img src="../images/badge-video.png" width="104" height="104" alt="Video de Presentaci&oacute;n"></a>
+
+      <div id="video-ie" style="display:none;">
+        <object width="480" height="360">
+          <param name="allowfullscreen" value="true">
+          <param name="allowscriptaccess" value="always">
+          <param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=8798529&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1">
+          <embed src="http://vimeo.com/moogaloop.swf?clip_id=8798529&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="480" height="360"></embed>
+        </object>
+      </div>  <!-- End #video-ie -->
+
+      <div id="video-other" style="display:none;">
+        <object width="480" height="360">
+          <param name="allowfullscreen" value="true">
+          <param name="allowscriptaccess" value="always">
+          <param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=8798492&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1">
+          <embed src="http://vimeo.com/moogaloop.swf?clip_id=8798492&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="480" height="360"></embed>
+        </object>
+      </div>  <!-- End #video-other -->
+    </div>
+
+    <div class="meta">
+      <a href="http://www.arc90.com/" class="arc90"><img src="../images/logo-arc90-large.png" width="107" height="41" alt="Arc90" title="Arc90"></a>
+
+      <p><a href="http://twitter.com/arc90" class="twitter">Siguenos en Twitter &raquo;</a></p>
+    </div>  <!-- End .meta -->
+  </div>  <!-- End #header -->
+
+  <ol id="instructions">
+    <li id="settings">
+      <h2>Elige tu configuraci&oacute;n</h2>
+      <dl class="settings-box" id="style">
+        <dt>Elije un estilo:</dt>
+        <dd><input type="radio" name="style" value="style-newspaper" id="newspaper" checked="checked"><label for="newspaper">Diario</label></dd>
+        <dd><input type="radio" name="style" value="style-novel" id="novel"><label for="novel">Novela</label></dd>
+        <dd><input type="radio" name="style" value="style-ebook" id="ebook"><label for="ebook">eBook</label></dd>
+        <dd><input type="radio" name="style" value="style-apertura" id="apertura"><label for="apertura" title="Powered by Typekit">Inverse</label><a href="http://typekit.com/?utm_source=readability&amp;utm_medium=affiliate&amp;utm_campaign=inverse" title="Powered by Typekit" target="_blank"><em>Powered by Typekit</em></a></dd>
+        <dd><input type="radio" name="style" value="style-athelas" id="athelas"><label for="athelas" title="Powered by Typekit">Athelas</label><a href="http://typekit.com/?utm_source=readability&amp;utm_medium=affiliate&amp;utm_campaign=athelas" title="Powered by Typekit" target="_blank"><em>Powered by Typekit</em></a></dd>
+      </dl>
+      <dl class="settings-box" id="size">
+        <dt>Elige un Tama&ntilde;o de Fuente:</dt>
+        <dd><input type="radio" name="size" value="size-x-small" id="x-small"><label for="x-small">Muy Chico</label></dd>
+        <dd><input type="radio" name="size" value="size-small" id="small"><label for="small">Chico</label></dd>
+        <dd><input type="radio" name="size" value="size-medium" id="medium"><label for="medium">Mediano</label></dd>
+        <dd><input type="radio" name="size" value="size-large" id="large" checked="checked"><label for="large">Grande</label></dd>
+        <dd><input type="radio" name="size" value="size-x-large" id="x-large"><label for="x-large">Extra Grande</label></dd>
+      </dl>
+      <dl class="settings-box" id="margin">
+        <dt>Elije una Anchura del Margen:</dt>
+        <dd><input type="radio" name="margin" value="margin-x-narrow" id="x-narrow"><label for="x-narrow">Muy Estrecho</label></dd>
+        <dd><input type="radio" name="margin" value="margin-narrow" id="narrow"><label for="narrow">Estrecho</label></dd>
+        <dd><input type="radio" name="margin" value="margin-medium" id="med"><label for="med">Mediano</label></dd>
+        <dd><input type="radio" name="margin" value="margin-wide" id="wide" checked="checked"><label for="wide">Ancho</label></dd>
+        <dd><input type="radio" name="margin" value="margin-x-wide" id="x-wide"><label for="x-wide">Muy Ancho</label></dd>
+      </dl>
+      <p><input type="checkbox" name="footnotes" value="1" id="footnotes"><label for="footnotes">Convertir hipervínculos en notas a pie de p&aacute;gina</label> <a href="#whats-this" title="¿Qu&eacute; convierte hiperenlaces a notas a pie de p&aacute;gina hacen?" id="footnote-details">¿Qu&eacute; es esto?</a></p>
+      <div id="whats-this" style="display:none;">
+        <h3>Convertir Hiperenlaces a Notas a pie de p&aacute;gina</h3>
+        <p>La lectura en la web puede ser dif&iacute;cil. Los art&iacute;culos a menudo son regados con lazos &mdash; le distrayendo del contenido &mdash; y tirar su atenci&oacute;n en otra parte.</p>
+        <p>Seleccionar el "Convierta hiperenlaces a notas a pie de p&aacute;gina" caja har&aacute; la Legibilidad saca los lazos de sus art&iacute;culos y los formatear como notas a pie de p&aacute;gina elegantes. El texto originalmente ligado ser&aacute; marcado con una llamada sencilla para que sepa exactamente donde notas a pie de p&aacute;gina corresponden a sus documentos.</p>
+      </div>
+    </li>  <!-- End #settings -->
+
+    <li id="bookmarklet">
+      <h2>Agrega tu marcardor</h2>
+      <p id="browser-instruction-placer"></p>
+      <p id="browser-instruction" style="display:none;">A continuaci&oacute;n, arrastra el marcador <em>Readability</em>&trade; a la barra de herramientas de tu navegador preferido:</p>
+      <p id="browser-instruction-ie" style="display:none;">Haga clic derecho sobre el <em>Readabilty</em>&trade; placa de abajo y seleccione &ldquo;Agregar a Favoritos&hellip;&rdquo;:</p>
+      <a id="bookmarkletLink" title="Readability"><img src="../images/badge-readability.png" width="174" height="40" alt="Readability"></a>
+      <p>Cuando est&eacute; visitando una p&aacute;gina Web que valga la pena leer, simplemente haz click en el marcador para activar <em>Readability</em>&trade;.</p>
+    </li>  <!-- End #bookmarklet -->
+  </ol>  <!-- End #instructions -->
+
+
+  <div id="article">
+    <h2>Ejemplo</h2>
+    <div id="example" class="style-newspaper">
+      <div id="articleContent" class="margin-wide size-large">
+        <h1>Compilando Contenido Que Vale La Pena Leer</h1>
+  			<p>Cuando Gregorio Samsa se despert&oacute; una ma&ntilde;ana de sue&ntilde;o intranquilo, se encontr&oacute; en su cama en un insecto gigante. Estaba tendido en su duro, por as&iacute; decirlo caparaz&oacute;n, la espalda y cuando levant&oacute; la cabeza un poco de poder ver su vientre oscuro, domo dividido en segmentos de arco r&iacute;gido en la parte superior de la colcha que no pod&iacute;a permanecer en el lugar y estaba a punto a deslizarse por completo. Sus piernas numerosos, que fueron rid&iacute;culamente peque&ntilde;as en comparaci&oacute;n con el resto de su volumen, agit&oacute; impotente ante sus ojos.</p>
+  			<p>&iquest;Qu&eacute; ha ocurrido a m&iacute;? , pens&oacute;. No era un sue&ntilde;o. Su habitaci&oacute;n, una habitaci&oacute;n humana regular, s&oacute;lo demasiado peque&ntilde;a, permanec&iacute;a tranquila dentro de sus cuatro paredes familiar. Por encima de la mesa en la que una colecci&oacute;n de muestras de tela fue desembalado y hacia fuera-Samsa era viajante de comercio-colgado el cuadro que hac&iacute;a poco hab&iacute;a recortado de una revista ilustrada y poner en un bonito marco dorado. Mostr&oacute; una dama con un sombrero de piel y en una estola de piel, sentarse derecho y sosteniendo al espectador un amplio manguito de piel en la que la totalidad de su antebrazo hab&iacute;a desaparecido!</p>
+      </div>  <!-- End #articleContent -->
+    </div>  <!-- End #example -->
+  </div>  <!-- End #article -->
+
+  <div id="footer">
+    <hr class="section">
+
+    <ul id="arcLinks">
+      <li><a href="http://www.arc90.com/" class="www-link"><img src="../images/logo-arc90-small.png" width="66" height="26" alt="Arc90" title="Arc90"></a></li>
+      <li><a href="http://lab.arc90.com/" class="lab-link"><img src="../images/logo-arc90lab-small.png" width="123" height="26" alt="Arc90 Lab" title="Arc90 Lab"></a></li>
+    </ul>
+
+    <div id="kindlingAd">
+      <a href="http://www.kindlingapp.com/" class="kindlingapp">
+        <img src="../images/kindling-logo-small.gif" width="250" height="50" alt="Kindling &mdash; Idea Management &amp; Collaboration" title="Kindling &mdash; Idea Management &amp; Collaboration">
+        <span>Idea Management &amp; Collaboration</span>
+      </a>
+    </div>
+  </div>  <!-- End #footer -->
+</div>  <!-- End #container -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7708461-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

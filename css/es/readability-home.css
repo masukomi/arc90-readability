@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #1E4E74;
+	color: #ddd;
+}
+img {
+	border: none;
+}
+#container {
+	margin-top: 10px;
+	margin-right:auto;
+	margin-left:auto;
+	width: 980px;
+	height: 1125px;
+	padding: 10px;
+	background: url(../../images/es/readability.png) no-repeat;
+	overflow: hidden;
+}
+#footer {
+	margin-top: 40px;
+	text-align: right;
+}
+div#arcLinks {
+	float: right;
+}
+div#kindlingAd {
+	width: 250px;
+	float: right;
+	margin-right: 150px;
+	text-align: center;
+}
+div#kindlingAd p {
+	color: #fff;
+	font-size: .8em;
+	line-height: 0px;
+}
+a.www-link {
+	margin: 0 8px 0 30px;
+}
+#arc90 {
+	display: block;
+	text-align: right;
+	margin-top: 60px;
+}
+#arc90 img {
+	margin-right: 10px;
+}
+#arc90 a.twitter {
+	color: #ddd;
+	text-decoration: none;
+	font-size: .8em;
+	font-weight: bolder;
+	margin-top: 10px;
+	border-bottom: 1px solid #fff;
+}
+#settings {
+	margin-top: 165px;
+	padding: 0 1.5em;
+	display: block;
+	width: 900px;
+	height: 160px;
+}
+div.settings-box, div#bookmarklet {
+	float: left;
+}
+div#bookmarklet {
+	width: 200px;
+	margin-top: 16px;
+	margin-left: 140px;
+	text-align: center;
+}
+div#style {
+	width: 175px;
+	margin-left: 20px;
+}
+div#size {
+	width: 165px;
+}
+div#margin {
+	width: 160px;
+}
+.settings-box label {
+	margin-left: .5em;
+	cursor: pointer;
+}
+.settings-box p {
+	margin: .1em 0;
+}
+#readHiddenContent {
+	display: none;
+}
+#example {
+	display: block;
+	margin-left: 30px;
+	margin-top: 24px;
+	width: 888px;
+	height: 454px;
+	left: 30px;
+	padding: 1em 2em;
+	overflow: auto;
+}
+#articleContent {
+	text-align: left;
+	line-height: 1.4em;	
+	margin: 1em auto;
+}
+/* ---------------- USER-CONFIGURABLE STYLING --------------------- */
+/* ---------------- USER-CONFIGURABLE STYLING --------------------- */
+/* Size options */
+.size-small {
+	font-size: 12px;
+}
+.size-medium {
+	font-size: 18px;
+}
+.size-large {
+	font-size: 26px;
+}
+.size-x-large {
+	font-size: 34px;
+}
+/* Style options */
+.style-novel {
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background: #F4F3DB;
+	color: #222;
+}
+.style-ebook {
+	font-family:Arial, Helvetica, sans-serif;
+	background: #eee;
+	color: #333;
+}
+.style-ebook h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-weight: normal;
+}
+.style-newspaper {
+	font-family:"Times New Roman", Times, serif;
+	background: #F7F7F7;
+	color: #222;
+}
+.style-newspaper h1 {
+	text-transform:capitalize;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.style-terminal {
+	font-family: "Lucida Console", Monaco, monospace;
+	background: #1D4E2C;
+	color: #C6FFC6;
+}
+/* Margin Options */
+/* Margin Options */
+
+.margin-x-wide {
+	width: 35%;
+}
+.margin-wide {
+	width: 55%;
+}
+.margin-medium {
+	width: 75%;
+}
+.margin-narrow {
+	width: 95%;
+}
+/* ---------------- USER-CONFIGURABLE STYLING --------------------- */
+/* ---------------- USER-CONFIGURABLE STYLING --------------------- */
+
+
+
+/* LOCK IN H1 SIZING */
+#articleContent h1 {
+	font-size: 1.2em !important;
+	display: block;
+	text-transform:capitalize;
+}
+#articleContent {
+	line-height: 1.4em;
+}

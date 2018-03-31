@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Word
+END
+DashToUnderscore.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Word/DashToUnderscore.php
+END
+UnderscoreToDash.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Word/UnderscoreToDash.php
+END
+UnderscoreToSeparator.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Word/UnderscoreToSeparator.php
+END
+CamelCaseToDash.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Word/CamelCaseToDash.php
+END
+DashToCamelCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Word/DashToCamelCase.php
+END
+SeparatorToCamelCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Word/SeparatorToCamelCase.php
+END
+CamelCaseToSeparator.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Word/CamelCaseToSeparator.php
+END
+SeparatorToDash.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Word/SeparatorToDash.php
+END
+DashToSeparator.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Word/DashToSeparator.php
+END
+SeparatorToSeparator.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Word/SeparatorToSeparator.php
+END
+CamelCaseToUnderscore.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Word/CamelCaseToUnderscore.php
+END
+UnderscoreToCamelCase.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Word/UnderscoreToCamelCase.php
+END

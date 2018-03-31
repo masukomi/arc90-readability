@@ -1,0 +1,360 @@
+/* @group Body and Layout */
+body {
+    background: #3574a6 url("../images/bg-body.jpg") repeat-x 0 0;
+    color: #ededed;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", Times, Georgia, serif;
+    }
+
+#container, #header, #instructions, #article, #example, #footer {
+    clear: both;
+    display: block;
+    padding: 0 0 10px;
+    position: relative;
+    overflow: hidden;
+    }
+
+#container {
+    margin: 10px auto 0;
+    padding: 10px;
+    width: 961px;
+    }
+
+#example {
+	height: 458px;
+	padding: 1em 2em;
+	overflow: auto;
+    }
+/* @end Body and Layout */
+
+/* @group General Typography */
+#header p, #instructions p, #footer p,
+#header li, #instructions li, #footer li {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+    font-weight: 300;
+    }
+
+ol,ul { list-style-type: none; padding: 0; margin: 0; }
+
+#readInner ol, #readInner ul {
+	margin: 1em 0px 1em 0px;
+}
+#readInner sup{line-height:.8em;}
+
+img { border: 0; outline: 0; }
+
+a, a:link, a:visited { color: #ddd; text-decoration: none; }
+
+a:hover { color: #fff; }
+
+a:active { color: #aaa; }
+
+em {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    font-style: normal;
+    font-variant: small-caps;
+    }
+/* @end General Typography */
+
+/* @group Header */
+#header h1 {
+    display: inline;
+    height: 133px;
+    float: left;
+    margin: 20px 0 10px;
+    width: 315px;
+    background: transparent url("../images/logo-readability-large.png") no-repeat 0 0;
+    text-indent: -9000px;
+    }
+
+#es #header h1 { background-image: url("../images/logo-readability-es-large.png"); }
+
+#introduction {
+    display: inline;
+    float: left;
+    margin: 25px 0 0;
+    width: 350px;
+    }
+
+#watch-video {
+    display: inline;
+    float: left;
+    margin: 30px 0 0 30px;
+    width: 110px;
+    }
+
+#header .meta {
+    display: inline;
+    float: left;
+    width: 130px;
+    margin: 50px 0 0 25px;
+    font-size: .75em;
+    text-align: center;
+    }
+
+#header .meta p a, #header .meta p a:link, #header .meta p a:visited { line-height: 2em; border-bottom: 1px solid #ddd; }
+
+#header .meta p a:hover { border-bottom-color: #fff; }
+
+#header .meta p a:active { border-bottom-color: #aaa; }
+/* @end Header */
+
+/* @group instructions */
+#settings {
+    display: inline;
+    float: left;
+    width: 560px;
+    background: transparent url("../images/bg-settings.png") no-repeat 0 65px;
+    }
+
+#es #settings { background-image: url("../images/bg-settings-es.png"); }
+
+#settings h2, #bookmarklet h2 {
+    margin: 0 0 15px;
+    padding: 16px 0 0 45px;
+    background: transparent url("../images/steps.png") no-repeat -45px 0;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1;
+    text-transform: uppercase;
+    }
+
+#settings .settings-box {
+    display: inline;
+    float: left;
+    margin: 55px 0 0 25px;
+    padding: 0 0 35px;
+    width: 135px;
+    }
+
+#settings dt { display: none; }
+
+#settings dd { margin: 0; padding: 0; }
+
+#settings input { margin: 0 10px 0 0; }
+
+#settings dd a, #settings dd a:link {
+    display: inline-block;
+    height: 14px;
+    margin: 0 0 0 6px;
+    position: relative;
+    width: 14px;
+    top: 5px;
+    background: transparent url("../images/icon-typekit.png") no-repeat 0 0;
+    text-indent: -9000px;
+    }
+
+#settings p {
+    clear: both;
+    display: block;
+    margin: 0 0 10px 0;
+    width: 500px;
+    text-align: center;
+    }
+
+#settings p label { font-style: italic; }
+
+#footnote-details {
+    margin: 0 0 0 5px;
+    padding: 0 0 0 14px;
+    background: transparent url("../images/bg-settings.png") no-repeat -63px -28px;
+    font-size: .8em;
+    font-weight: 600;
+    text-decoration: underline;
+    }
+
+#footnote-details span {
+    margin: 0;
+    padding: 3px 0;
+    background: #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    }
+
+#footnote-details span span {
+    padding: 3px .4em;
+    position: relative;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-width: 1px 1px;
+    }
+
+#bookmarklet {
+    display: inline;
+    float: left;
+    width: 380px;
+    font-size: .9em;
+    }
+#bookmarklet h2 {
+    margin-bottom: 45px;
+    background-position: 0 -45px;
+    }
+#bookmarklet p {
+    margin: 0 0 0 45px;
+    width: 330px;
+    }
+#browser-instruction-placer { display: block; height: 46px; }
+#bookmarkletLink {
+    display: block;
+    height: 40px;
+    margin: 20px 0 20px 115px;
+    width: 174px;
+    cursor: move;
+    }
+#bookmarkletText {
+    margin: 0 0 0 45px;
+    height: 3.6em;
+    width: 330px;
+    }
+#readabilityBadge {
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow:3px 2px 2px 0 rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 3px 2px 2px 0 rgba(0,0,0, 0.35);
+    box-shadow: 3px 2px 2px 0 rgba(0,0,0, 0.35);
+    *border: 1px solid #888; /* IE hax */
+    background-color: #ddd;
+    background: -moz-linear-gradient(90deg, #bbb, #eee) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, from(#bbb), to(#eee));
+    color: #222;
+    letter-spacing: 0.02em;
+    font-size: 22px;
+    font-variant: small-caps;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 167px;
+    cursor: move;
+}
+/* @end instructions */
+
+/* @group footer */
+#footer { background: transparent url("../images/logo-readability-small.png") no-repeat 0 30px; }
+
+#footer hr { 
+    height: 0;
+    margin-bottom: 20px;
+    outline: 0;
+    border: 1px solid #8ea6b9;
+    }
+
+#arcLinks li { display: inline; float: right; }
+
+#arcLinks img { vertical-align: -8px; }
+
+#arcLinks .www-link { margin-left: 25px; padding-left: 25px; border-left: 1px solid #ededed; }
+
+#kindlingAd {
+    margin: 0 auto;
+	width: 250px;
+	text-align: center;
+	font-size: .8em;
+	margin-top: -10px;
+    }
+
+#kindlingAd span {
+	font-size: 11px;
+	}
+/* @end footer */
+
+/* @group overlay */
+#fancy_outer a {
+	color: #036;
+	text-decoration: underline;
+    }
+/* @end overlay */
+
+/* @group Readability Examples */
+#article {font-size:10px;line-height:1;}
+
+#article h2 { 
+    display: block;
+    margin: 0;
+    padding: 5px 0;
+    position: absolute;
+    right: 35px;
+    width: 136px;
+    z-index: 10;
+    background: transparent url("../images/tab-example.png") no-repeat 0 bottom;
+    font-weight: 300;
+    text-align: center;
+    }
+
+#articleContent {
+	text-align: left;
+	line-height: 1.4em;	
+	margin: 1em auto;
+    }
+
+#articleContent h1 {
+	display: block;
+	padding-bottom: .5em;
+	margin-bottom: .75em;
+	border-bottom:1px solid #333;
+	font-size: 1.2em;
+	text-transform: capitalize;
+    }
+    
+#articleContent a:hover {
+    text-decoration: underline;
+}
+    
+#articleContent ol {
+    list-style-type: decimal;
+    list-style-position: outside;
+    margin-left: 2em;
+}
+
+#example #references {
+    display: none;
+}
+
+#example a.footnote {
+    display: none;
+}
+
+#example.showNotes #articleBody a {
+    color: inherit;
+}
+
+#example.showNotes #references {
+    display: block;
+}
+
+#example.showNotes a.footnote {
+    display: inline;
+}
+
+/* Size options */
+.size-x-small { font-size: 12px; }
+.size-small { font-size: 15px; }
+.size-medium { font-size: 18px; }
+.size-large { font-size: 22px; }
+.size-x-large { font-size: 28px; }
+/* Style options */
+.style-newspaper { font-family:Georgia,"Times New Roman", Times, serif; background:#fbfbfb; color:#080000; }
+.style-newspaper h1 { text-transform:capitalize; font-family:Georgia, "Times New Roman", Times, serif; }
+.style-newspaper #readInner a { color:#0924e1; }
+.style-novel { font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; background:#f4eed9; color:#1d1916; }
+.style-novel #readInner a { color:#1856ba; }
+.style-ebook { font-family:Arial, Helvetica, sans-serif; background:#edebe8; color:#2c2d32; }
+.style-ebook #readInner a { color:#187dc9; }
+.style-ebook h1 { font-family:"Arial Black", Gadget, sans-serif; font-weight:400; }
+.style-terminal { font-family:"Lucida Console", Monaco, monospace; background:#1d4e2c; color:#c6ffc6; }
+.style-terminal #readInner a { color:#093; }
+/* Begin Typekit Styles */
+.style-apertura { font-family:"apertura-1", "apertura-2", sans-serif; background:#2d2828; color:#eae8e9; }
+.style-apertura #articleContent h1 { border-bottom-color: #ededed; }
+.style-apertura #readInner a { color:#58b0ff; }
+.style-athelas { font-family:"athelas-1", "athelas-2", sans-serif; background:#f7f7f7; color:#2b373d; }
+.style-athelas #readInner a { color:#1e83cb; }
+/* Margin Options */
+.margin-x-narrow { width: 95%; }
+.margin-narrow { width: 85%; }
+.margin-medium { width: 75%; }
+.margin-wide { width: 55%; }
+.margin-x-wide { width: 35%; }
+/* @end Readability Examples */

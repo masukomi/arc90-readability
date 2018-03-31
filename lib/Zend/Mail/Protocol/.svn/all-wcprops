@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/82/trunk/lib/Zend/Mail/Protocol
+END
+Pop3.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/82/trunk/lib/Zend/Mail/Protocol/Pop3.php
+END
+Abstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/lib/Zend/Mail/Protocol/Abstract.php
+END
+Smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/82/trunk/lib/Zend/Mail/Protocol/Smtp.php
+END
+Imap.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/82/trunk/lib/Zend/Mail/Protocol/Imap.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/82/trunk/lib/Zend/Mail/Protocol/Exception.php
+END

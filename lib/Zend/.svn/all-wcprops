@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/82/trunk/lib/Zend
+END
+Filter.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/82/trunk/lib/Zend/Filter.php
+END
+Loader.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/82/trunk/lib/Zend/Loader.php
+END
+Mime.php
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/82/trunk/lib/Zend/Mime.php
+END
+Registry.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/82/trunk/lib/Zend/Registry.php
+END
+Validate.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/82/trunk/lib/Zend/Validate.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/82/trunk/lib/Zend/Exception.php
+END
+Mail.php
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/82/trunk/lib/Zend/Mail.php
+END

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File
+END
+Crc32.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/Crc32.php
+END
+Extension.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/Extension.php
+END
+ImageSize.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/ImageSize.php
+END
+IsImage.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/IsImage.php
+END
+Exists.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/Exists.php
+END
+Hash.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/Hash.php
+END
+Upload.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/Upload.php
+END
+Md5.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/Md5.php
+END
+ExcludeExtension.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/ExcludeExtension.php
+END
+Count.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/Count.php
+END
+MimeType.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/MimeType.php
+END
+Sha1.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/Sha1.php
+END
+FilesSize.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/FilesSize.php
+END
+NotExists.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/NotExists.php
+END
+IsCompressed.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/IsCompressed.php
+END
+ExcludeMimeType.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/ExcludeMimeType.php
+END
+Size.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/82/trunk/lib/Zend/Validate/File/Size.php
+END

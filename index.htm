@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Readability - An Arc90 Lab Experiment</title>
+  <meta name="author" content="Arc90">
+  <meta name="description" content="Readability&trade; is a simple tool that makes reading on the Web more enjoyable by removing the clutter around what you're reading.">
+  <link rel="stylesheet" href="css/readability-home.css" type="text/css" media="screen" charset="utf-8">
+  <link rel="stylesheet" href="css/fancybox.css" type="text/css" media="screen" charset="utf-8">
+  <link rel="icon" type="image/png" href="images/icon-readability-favicon.png">
+  <!--[if lte IE 7]>
+    <style type="text/css" media="screen">
+      #introduction, #watch-video, #header .meta { margin-top: 0; }
+      .settings-box { margin-left: 5px; width: 160px; }
+    </style>
+  <![endif]-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script> 
+  <script src="js/readability-start.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/jquery.fancybox-1.2.6.pack.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" src="http://use.typekit.com/thw1vhb.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script type="text/javascript">
+    languagesAvailable  = ['es'];
+    language            = (navigator.language || navigator.userLanguage);
+    languageCode        = language.replace(/-.*/,'').toLowerCase();
+    if(languageCode != 'en') {
+      languageIsAvailable = false;
+      for(l in languagesAvailable) {
+        if(languagesAvailable[l] == languageCode) {
+          languageIsAvailable = true;
+          break;
+        }
+      }
+      if(languageIsAvailable) {
+        window.location = "http://lab.arc90.com/experiments/readability/" + languageCode;
+      }
+    }
+  </script>
+</head>
+<body>
+
+<div id="container">
+  <div id="header">
+    <h1>Readability&trade;<span class="secondary-title"> &mdash; An Arc90 Laboratory Experiment</span></h1>
+
+    <div id="introduction">
+      <p><em>Readability</em>&trade; is a simple tool that makes reading on the Web more enjoyable by removing the clutter around what you're reading. Follow the steps below to install <em>Readability</em>&trade; in your Web browser.</p>
+    </div>  <!-- End #introduction -->
+
+    <div id="watch-video">
+      <a href="#video-other" class="video" title="Installation Instructions" id="video-instruction"><img src="images/badge-video.png" width="104" height="104" alt="Installation Instructions Icon"></a>
+
+      <div id="video-ie" style="display:none;">
+        <object width="480" height="360">
+          <param name="allowfullscreen" value="true">
+          <param name="allowscriptaccess" value="always">
+          <param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=8798529&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1">
+          <embed src="http://vimeo.com/moogaloop.swf?clip_id=8798529&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="480" height="360"></embed>
+        </object>
+      </div>  <!-- End #video-ie -->
+
+      <div id="video-other" style="display:none;">
+        <object width="480" height="360">
+          <param name="allowfullscreen" value="true">
+          <param name="allowscriptaccess" value="always">
+          <param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=8798492&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1">
+          <embed src="http://vimeo.com/moogaloop.swf?clip_id=8798492&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="480" height="360"></embed>
+        </object>
+      </div>  <!-- End #video-other -->
+    </div>
+
+    <div class="meta">
+      <a href="http://www.arc90.com/" class="arc90"><img src="images/logo-arc90-large.png" width="107" height="41" alt="Arc90" title="Arc90"></a>
+
+      <p><a href="http://twitter.com/arc90" class="twitter">Follow us on Twitter &raquo;</a></p>
+    </div>  <!-- End .meta -->
+  </div>  <!-- End #header -->
+
+  <ol id="instructions">
+    <li id="settings">
+      <h2>Select Your Settings</h2>
+      <dl class="settings-box" id="style">
+        <dt>Choose a Style:</dt>
+        <dd><input type="radio" name="style" value="style-newspaper" id="newspaper" checked="checked"><label for="newspaper">Newspaper</label></dd>
+        <dd><input type="radio" name="style" value="style-novel" id="novel"><label for="novel">Novel</label></dd>
+        <dd><input type="radio" name="style" value="style-ebook" id="ebook"><label for="ebook">eBook</label></dd>
+        <dd><input type="radio" name="style" value="style-apertura" id="apertura"><label for="apertura" title="Powered by Typekit">Inverse</label><a href="http://typekit.com/?utm_source=readability&amp;utm_medium=affiliate&amp;utm_campaign=inverse" title="Powered by Typekit" target="_blank"><em>Powered by Typekit</em></a></dd>
+        <dd><input type="radio" name="style" value="style-athelas" id="athelas"><label for="athelas" title="Powered by Typekit">Athelas</label><a href="http://typekit.com/?utm_source=readability&amp;utm_medium=affiliate&amp;utm_campaign=athelas" title="Powered by Typekit" target="_blank"><em>Powered by Typekit</em></a></dd>
+      </dl>
+      <dl class="settings-box" id="size">
+        <dt>Choose a Font Size:</dt>
+        <dd><input type="radio" name="size" value="size-x-small" id="x-small"><label for="x-small">Extra Small</label></dd>
+        <dd><input type="radio" name="size" value="size-small" id="small"><label for="small">Small</label></dd>
+        <dd><input type="radio" name="size" value="size-medium" id="medium" checked="checked"><label for="medium">Medium</label></dd>
+        <dd><input type="radio" name="size" value="size-large" id="large"><label for="large">Large</label></dd>
+        <dd><input type="radio" name="size" value="size-x-large" id="x-large"><label for="x-large">Extra Large</label></dd>
+      </dl>
+      <dl class="settings-box" id="margin">
+        <dt>Choose a Margin Width:</dt>
+        <dd><input type="radio" name="margin" value="margin-x-narrow" id="x-narrow"><label for="x-narrow">Extra Narrow</label></dd>
+        <dd><input type="radio" name="margin" value="margin-narrow" id="narrow"><label for="narrow">Narrow</label></dd>
+        <dd><input type="radio" name="margin" value="margin-medium" id="med"><label for="med">Medium</label></dd>
+        <dd><input type="radio" name="margin" value="margin-wide" id="wide" checked="checked"><label for="wide">Wide</label></dd>
+        <dd><input type="radio" name="margin" value="margin-x-wide" id="x-wide"><label for="x-wide">Extra Wide</label></dd>
+      </dl>
+      <p><input type="checkbox" name="footnotes" value="1" id="footnotes"><label for="footnotes">Convert hyperlinks to footnotes</label> <a href="#whats-this" title="What does convert hyperlinks to footnotes do?" id="footnote-details">What's this?</a></p>
+      <div id="whats-this" style="display:none;">
+        <h2>Converting Hyperlinks to Footnotes</h2>
+        <p>Reading on the web can be difficult. Articles are often strewn with links &mdash; distracting you from the content &mdash; and pulling your attention elsewhere.</p>
+		<p>Selecting the "Convert hyperlinks to footnotes" checkbox will pull the links out of your articles and format them as footnotes. Originally linked text will be marked with a simple reference mark so that you know exactly where footnotes correspond to your documents.</p>
+		<p>You can learn more about this feature <a href="http://blog.arc90.com/2010/06/03/readability-updated-an-end-to-the-yank-of-the-hyperlink/">at the Arc90 Blog.</a></p>
+      </div>
+    </li>  <!-- End #settings -->
+
+    <li id="bookmarklet">
+      <h2>Add Your Bookmarklet</h2>
+      <p id="browser-instruction-placer"></p>
+
+      <p id="browser-instruction" style="display:none;">Drag the <em>Readability</em>&trade; badge below to your browser's bookmark toolbar:</p>
+
+      <p id="browser-instruction-ie" style="display:none;">Right click on the <em>Readability</em>&trade; badge below and select &ldquo;Add to Favorites&hellip;&rdquo;:</p>
+
+      <p id="browser-instruction-ios" style="display:none;">First, bookmark this page. Second, after choosing your settings, copy the text below. Finally, edit the bookmark you just created and paste the text from below into the URL and save:</p>
+
+      <a id="bookmarkletLink" title="Readability"><div id="readabilityBadge">Readability</div></a>
+
+      <p>When visiting a Web page worth reading, simply select the bookmark to enable <em>Readability</em>&trade;.</p>
+    </li>  <!-- End #bookmarklet -->
+  </ol>  <!-- End #instructions -->
+
+
+  <div id="article">
+    <h2>Example</h2>
+    <div id="example" class="style-newspaper">
+	  <div id="readInner">
+	      <div id="articleContent" class="margin-wide size-medium">
+			<div id="articleBody">
+	        <h1>Compelling Content Worth Reading</h1>
+	        <p>One morning, when <a href="http://en.wikipedia.org/wiki/Gregor_Samsa" name="readabilityLink-1" title="Gregor Samsa - Description on Wikipedia">Gregor Samsa</a><a class="footnote" href="#readabilityFootnote-1"><sup><small>[1]</small></sup></a> woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour&ndash;like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+	        <p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. &ldquo;What's happened to me?&rdquo; he thought. It wasn't a dream.</p>
+            <p>His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table &ndash; Samsa was a traveling salesman &ndash; and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.</p>
+			<p><small>An excerpt from &ldquo;The Metamorphosis&rdquo;, by Franz Kafka.<br />Read the entire novel for free at <a href="http://www.gutenberg.org/files/5200/5200-h/5200-h.htm" title="The Metamorphosis - Novel at Project Gutenberg">Project Gutenberg</a><a class="footnote" href="#readabilityFootnote-1"><sup><small>[2]</small></sup></a></small>.</p>
+			</div>
+			<div id="references">
+				<h3>References</h3>
+				<ol>
+					<li>
+						<small><sup><a href="#readabilityLink-1" title="Jump to Link in Article">^</a></sup></small> <a href="http://en.wikipedia.org/wiki/Gregor_Samsa" title="Gregor Samsa - Description on Wikipedia" name="readabilityFootnoteLink-1" id="readabilityFootnoteLink-1">Gregor Samsa - Description on Wikipedia</a> <small>(en.wikipedia.org)</small>
+					</li>
+					<li>
+						<small><sup><a href="#readabilityLink-2" title="Jump to Link in Article">^</a></sup></small> <a href="http://www.gutenberg.org/files/5200/5200-h/5200-h.htm" title="The Metamorphosis - Full Novel" name="readabilityFootnoteLink-2" id="readabilityFootnoteLink-2">The Metamorphosis - Full Novel</a> <small>(gutenberg.org)</small>
+					</li>
+				</ol>
+			</div>
+	      </div>  <!-- End #articleContent -->
+      </div> <!-- End #readInner -->
+    </div>  <!-- End #example -->
+  </div>  <!-- End #article -->
+
+  <div id="footer">
+    <hr class="section">
+
+    <ul id="arcLinks">
+      <li><a href="http://www.arc90.com/" class="www-link"><img src="images/logo-arc90-small.png" width="66" height="26" alt="Arc90" title="Arc90"></a></li>
+      <li><a href="http://lab.arc90.com/" class="lab-link"><img src="images/logo-arc90lab-small.png" width="123" height="26" alt="Arc90 Lab" title="Arc90 Lab"></a></li>
+    </ul>
+
+    <div id="kindlingAd">
+      <a href="http://www.kindlingapp.com/" class="kindlingapp">
+        <img src="images/kindling_250px_dark_trans.png" width="250" height="50" alt="Kindling &mdash; Idea Management &amp; Collaboration" title="Kindling &mdash; Idea Management &amp; Collaboration">
+        <span>An Idea Management &amp; Collaboration Tool</span>
+      </a>
+    </div>
+  </div>  <!-- End #footer -->
+</div>  <!-- End #container -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-7708461-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

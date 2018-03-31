@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/82/trunk/lib/Zend/Mail/Storage/Writable
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/82/trunk/lib/Zend/Mail/Storage/Writable/Interface.php
+END
+Maildir.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/82/trunk/lib/Zend/Mail/Storage/Writable/Maildir.php
+END

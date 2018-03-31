@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/82/trunk/lib/Zend/Filter
+END
+Inflector.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Inflector.php
+END
+Alpha.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Alpha.php
+END
+StringToUpper.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/StringToUpper.php
+END
+PregReplace.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/PregReplace.php
+END
+Int.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Int.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Exception.php
+END
+Input.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Input.php
+END
+Interface.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Interface.php
+END
+RealPath.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/RealPath.php
+END
+StringTrim.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/StringTrim.php
+END
+StripNewlines.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/StripNewlines.php
+END
+HtmlEntities.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/HtmlEntities.php
+END
+BaseName.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/BaseName.php
+END
+Alnum.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Alnum.php
+END
+Dir.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Dir.php
+END
+StripTags.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/StripTags.php
+END
+StringToLower.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/StringToLower.php
+END
+Digits.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/82/trunk/lib/Zend/Filter/Digits.php
+END

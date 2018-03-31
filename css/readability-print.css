@@ -1,0 +1,88 @@
+body, #readOverlay {
+	background-color: white !important;
+}
+
+embed, object {
+	display: none !important;
+}
+
+/*#readInner {
+    width: 100% !important;
+}
+*/
+#readInner.margin-x-narrow {width:100% !important;}
+#readInner.margin-narrow {width:91% !important;}
+#readInner.margin-medium {width:84% !important;}
+#readInner.margin-wide {width:77% !important;}
+#readInner.margin-x-wide {width:70% !important;}
+
+#readTools {
+	display: none !important;
+}
+
+#readFooter {
+	font-size: .85em;
+	text-align: left !important;
+}
+
+#readFooter a {
+    border-bottom-width: 0 !important;
+}
+
+#readability-url {
+	display: inline !important;
+}
+
+#rdb-footer-print {
+    display: block !important;
+    font-size: .85em;
+    text-align: right;
+    margin-bottom: 1.5em;
+}
+
+#rdb-footer-print span {
+    white-space: ;
+}
+
+#rdb-footer-left {
+    width: auto !important;
+    display: block !important;
+    float: none !important;
+    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, serif;
+}
+
+#rdb-footer-right {
+    display: none !important;
+}
+
+#readFooter #arc90-logo, #readFooter #readability-logo {
+    background-image: none !important;
+    text-indent: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    line-height: auto !important;
+    margin: 0 !important;
+	text-align: left;
+}
+
+#readFooter #readability-logo {
+	color: #333 !important;
+	font-variant: small-caps;
+}
+
+#footer-twitterLink {
+    display: none;
+}
+
+#readFooter span.version {
+	display: none;
+}
+
+a {
+	color: #333 !important;
+	border-bottom: 1px solid #CCC !important;
+}
+
+div.footer-right {
+	display: none;
+}
