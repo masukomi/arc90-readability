@@ -36,3 +36,5 @@ languages. Here's a listing of the main ones I could find.
 	* [readability running on Ruby in Harmony](https://github.com/sspinc/readability)
 * **Rust**
 	* [readability-rs](https://github.com/kumabook/readability)
+* **Go**
+	* [goreadability](https://github.com/philipjkim/goreadability)
