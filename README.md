@@ -16,6 +16,7 @@ languages. Here's a listing of the main ones I could find.
 * **JavaScript**
 	* [readability-redux](https://github.com/MHordecki/readability-redux) (Chrome Extension)
 	* [readability-js](https://github.com/Kerrick/readability-js)
+	* [McReadability is a multi-column version](http://anoved.github.io/mcreadability/)
 * **Node.js**
 	* [node-readability](https://github.com/luin/node-readability)
 	* [readability 2](https://github.com/mvasilkov/readability2) 
