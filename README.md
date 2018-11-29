@@ -20,6 +20,7 @@ languages. Here's a listing of the main ones I could find.
 * **Node.js**
 	* [node-readability](https://github.com/luin/node-readability)
 	* [readability 2](https://github.com/mvasilkov/readability2) 
+	* [node-html-readability](https://github.com/yangsibai/node-html-readability)
 * **Objective C**
 	* [readability-objc](https://github.com/JanX2/readability-objc)
 * **PHP**
