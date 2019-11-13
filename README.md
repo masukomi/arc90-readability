@@ -10,6 +10,10 @@ Distributed under the [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0) T
 Since its origin the Readability algorithm has been ported to a variety of
 languages. Here's a listing of the main ones I could find.
 
+* **Crystal**
+	* [readability.cr](https://github.com/joenas/readability.cr)
+* **Go**
+	* [goreadability](https://github.com/philipjkim/goreadability)
 * **Java**
 	* [snaktory](https://github.com/karussell/snacktory)
 	* [Java-readability](https://github.com/basis-technology-corp/Java-readability)
@@ -37,5 +41,4 @@ languages. Here's a listing of the main ones I could find.
 	* [readability running on Ruby in Harmony](https://github.com/sspinc/readability)
 * **Rust**
 	* [readability-rs](https://github.com/kumabook/readability)
-* **Go**
-	* [goreadability](https://github.com/philipjkim/goreadability)
+	* [readability](https://github.com/kumabook/readability)
