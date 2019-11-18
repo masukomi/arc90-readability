@@ -18,7 +18,7 @@ languages. Here's a listing of the main ones I could find.
 	* [snaktory](https://github.com/karussell/snacktory)
 	* [Java-readability](https://github.com/basis-technology-corp/Java-readability)
 * **JavaScript**
-        * [readability](https://github.com/mozilla/readability) (Mozilla's standalone lib, works in browser or Node.js)
+	* [readability](https://github.com/mozilla/readability) (Mozilla's standalone lib, works in browser or Node.js)
 	* [readability-redux](https://github.com/MHordecki/readability-redux) (Chrome Extension)
 	* [readability-js](https://github.com/Kerrick/readability-js)
 	* [McReadability is a multi-column version](http://anoved.github.io/mcreadability/)
