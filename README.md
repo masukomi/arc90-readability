@@ -10,6 +10,8 @@ Distributed under the [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0) T
 Since its origin the Readability algorithm has been ported to a variety of
 languages. Here's a listing of the main ones I could find.
 
+* **C**
+	* [rdrview](https://github.com/eafer/rdrview) a command line tool based on Mozilla Readability.
 * **C#**
 	* [SmartReader](https://github.com/Strumenta/SmartReader)
 * **Crystal**
