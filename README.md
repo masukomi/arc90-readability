@@ -43,7 +43,7 @@ languages. Here's a listing of the main ones I could find.
 	* [python-readabile](https://github.com/phensley/python-readable) 
 * **Ruby**
 	* [ruby-readability](https://github.com/cantino/ruby-readability)
-	* [readability Rails engine](https://github.com/plukevdh/readability)
+	* [readability Rails engine](https://github.com/plukevdh/readability) (Dead: used defunct Readability service's API.)
 	* [readability running on Ruby in Harmony](https://github.com/sspinc/readability)
 * **Rust**
 	* [readability](https://github.com/kumabook/readability)
