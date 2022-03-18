@@ -36,8 +36,8 @@ languages. Here's a listing of the main ones I could find.
 	* [php-readability](https://github.com/feelinglucky/php-readability) 
 	* [php-readability](https://github.com/tkid/php-readability)  
 * **Python**
-	* [python-readability](https://github.com/gfxmonk/python-readability)
-		* [decruft](https://github.com/dcramer/decruft) python-readability, but faster 
+	* [python-readability](https://github.com/buriy/python-readability)
+		* [decruft](https://github.com/dcramer/decruft) original lxml conversion of python-readability (included in above)
 	* [kingwb/readability](https://github.com/kingwkb/readability)
 	* [breadability](https://github.com/bookieio/breadability) 
 	* [python-readabile](https://github.com/phensley/python-readable) 
