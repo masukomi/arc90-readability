@@ -26,6 +26,7 @@ languages. Here's a listing of the main ones I could find.
 	* [readability-redux](https://github.com/MHordecki/readability-redux) (Chrome Extension)
 	* [readability-js](https://github.com/Kerrick/readability-js)
 	* [McReadability is a multi-column version](http://anoved.github.io/mcreadability/)
+	* [safari-reader-js](https://github.com/amumu-dev/safari-reader-js) a 2015 snapshot of part of the JavaScript Apple's Safari Reader View was using.
 * **Node.js**
 	* [node-readability](https://github.com/luin/node-readability)
 	* [readability 2](https://github.com/mvasilkov/readability2) 
